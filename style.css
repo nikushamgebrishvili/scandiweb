@@ -22,7 +22,6 @@ body,
 }
 
 .women {
-  /* transform: translate(100px,40px); */
   margin: 100px;
 }
 
@@ -43,4 +42,55 @@ body,
 }
 .nav-item:hover {
   color: #5ece7b;
+}
+
+@media (max-width: 500px) {
+  .img-size {
+    width: 80%;
+    height: 80%;
+  }
+  html {
+    font-size: 9px;
+  }
+}
+
+.hamburger-icon {
+  color: #333;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .list {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  }
+
+
+.first-img {
+  gap: 10px;
+  width: 386px;
+  height: 444px;
+}
+
+.gan {
+  background-color: #a8acb030;
+  padding: 15px;
+  height: 444px;
+  margin-top: 10px;
+}
+
+.circle-logo img {
+  transform: translate(-20px, -45px);
+}
+
+.first{
+  width: 386px;
+  height: 444px;
 }

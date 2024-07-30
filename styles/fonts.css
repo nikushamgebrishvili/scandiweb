@@ -35,7 +35,12 @@ html {
 .small {
   font-size: 1.6rem;
 }
-
+.medium{
+  font-size: 1.8rem;
+}
+.big {
+  font-size: 3rem;
+}
 .bigger {
   font-size: 4.2rem;
 }
