@@ -38,9 +38,13 @@ html {
 .medium{
   font-size: 1.8rem;
 }
+.mediumX2{
+  font-size: 2.4rem;
+}
 .big {
   font-size: 3rem;
 }
 .bigger {
   font-size: 4.2rem;
 }
+

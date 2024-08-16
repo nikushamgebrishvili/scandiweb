@@ -1,0 +1,154 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  height: 1500px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  padding: 25px 100px;
+  background-color: #ffff;
+  z-index: 200;
+}
+.nav-item {
+  height: fit-content;
+  cursor: pointer;
+}
+.nav-item:hover {
+  color: #5ece7b;
+}
+
+.logo-container {
+  left: 48%;
+}
+.under-line {
+  border-bottom: 2px solid #5ece7b;
+  padding: 0 6% 24px 6%;
+}
+
+.list {
+  gap: 25px;
+}
+
+.img-size {
+  width: 80px;
+}
+.photo-list {
+  gap: 25px;
+  width: fit-content;
+}
+
+.main-img {
+  width: 575px;
+  height: 480px;
+}
+
+.img-container {
+  margin: 60px 0 0 100px;
+  
+}
+
+.sizes-container {
+  width: 65px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+}
+
+.clothes-sizes-container {
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.different-sizes {
+  background-color: #1d1f22;
+  color: white;
+}
+:hover.sizes-container {
+  background-color: #1d1f22;
+  color: white;
+}
+
+.color-size {
+  width: 32px;
+  height: 32px;
+}
+.color1 {
+  background-color: #d3d2d5;
+  border: 1px #5ECE7B solid;
+
+
+}
+.color2 {
+  background-color: #2b2b2b;
+}
+.color3 {
+  background-color: #0f6450;
+}
+.colors-container {
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.add-button {
+  background-color: #5ece7b;
+  color: white;
+  width: 292px;
+  height: 52px;
+  opacity: 90%;
+  cursor: pointer;
+}
+:hover.add-button{
+  opacity: 100%;
+  background-color: #53b86e;
+  transition: 0.5s ease;
+}
+
+.information {
+  width: 290px;
+  line-height: 26px;
+  margin-top: 40px;
+}
+
+
+html{
+  font-size: 11px;
+}
+
+.main-div{
+  gap: 300px;
+}
+
+@media(max-width: 1500px){
+
+  html{
+    font-size: 10px;
+  }
+  .main-div{
+    gap: 100px;
+  }
+}
+
+.hamburger-icon {
+  color: #333;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .list {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  }

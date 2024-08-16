@@ -23,10 +23,20 @@
 .none {
   display: none;
 }
-
 .absolute {
   position: absolute;
 }
-.end{
+.sticky {
+  position: sticky;
+}
+.fit-content {
+  width: fit-content;
+}
+.end {
   justify-content: end;
+}
+.full-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
